@@ -7,5 +7,5 @@ function calculateArea() {
 
     let area = length * width;
 
-    document.getElementById('result').innerText = 'The area of the reactangle is: ${area}';
+    document.getElementById('result').innerText = `The area of the reactangle is: ${area}`;
 }
