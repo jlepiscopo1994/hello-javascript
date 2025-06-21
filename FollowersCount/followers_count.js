@@ -17,3 +17,9 @@ function checkCountValue() {
         alert("Your post gained 20 followers. Keep it up!");
     }
 }
+
+function resetCount() {
+    count = 0;
+    document.getElementById('countDisplay').innerHTML=count;
+    alert("Followers count has been reset to 0");
+}
